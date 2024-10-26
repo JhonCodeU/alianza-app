@@ -11,6 +11,8 @@ public class Client {
     private LocalDate dateEnd;
     private LocalDate dateCreate;
 
+    public Client() {}
+
     // Constructores, getters y setters
     public Client(String sharedKey, String businessId, String email, String phone, LocalDate dateStart, LocalDate dateEnd, LocalDate dateCreate) {
         this.sharedKey = sharedKey;

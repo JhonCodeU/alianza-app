@@ -15,7 +15,11 @@ public class ClientService {
 
     public ClientService() {
         // Cargar algunos clientes de ejemplo
-        clientes.add(new Client("SH123", "123", "test@example.com", "555-1234", LocalDate.now(), null, LocalDate.now()));
+        clientes.add(new Client("jgutierrez", "Javier Gutierrez", "jgutierrez@example.com", "555-1234", LocalDate.now(), null, LocalDate.now()));
+        clientes.add(new Client("jgonzalez", "Javier Gonzalez", "jgonzalez@example.com", "555-5678", LocalDate.now(), null, LocalDate.now()));
+        clientes.add(new Client("jlopez", "Javier Lopez", "jlopez@example.com", "555-9012", LocalDate.now(), null, LocalDate.now()));
+        clientes.add(new Client("egarcia", "Estefania Garcia", "egarcia@example.com", "555-3456", LocalDate.now(), null, LocalDate.now()));
+        clientes.add(new Client("mlopez", "Maria Lopez", "mlopez@example.com", "555-7890", LocalDate.now(), null, LocalDate.now()));
     }
 
     // Obtener todos los clientes
